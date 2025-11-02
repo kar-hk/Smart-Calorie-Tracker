@@ -54,8 +54,8 @@ pip install mysql-connector-python bcrypt colorama python-dotenv
 ---
 
 ### 👨‍💻 Developed by
-**Hanishkar**  
-*Computer Science Enthusiast | Python Developer | Lifelong Learner*  
+**Hanishkar Senthilkumar**  
+*Cyber Security Enthusiast | Tech Explorer | Lifelong Learner*  
 
 ---
 
