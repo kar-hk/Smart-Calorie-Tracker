@@ -51,9 +51,9 @@ except ImportError:
 class Config:
     """Application configuration with environment variable support"""
     DB_HOST = os.getenv('DB_HOST', 'localhost')
-    DB_USER = os.getenv('DB_USER', 'root')
-    DB_PASSWORD = os.getenv('DB_PASSWORD', 'admin')
-    DB_NAME = os.getenv('DB_NAME', 'calorie_calculator')
+    DB_USER = os.getenv('DB_USER', 'root') #change the default user as needed
+    DB_PASSWORD = os.getenv('DB_PASSWORD', 'admin') #change the default password as needed
+    DB_NAME = os.getenv('DB_NAME', 'calorie_calculator') #change the default database name as needed
     LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
     LOG_FILE = 'calorie_calculator.log'
     
